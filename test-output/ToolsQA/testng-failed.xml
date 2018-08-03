@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ToolsQA]">
+  <test thread-count="5" name="Assignment1(failed)">
+    <classes>
+      <class name="toolsQA.Screenshot">
+        <methods>
+          <include name="getScreenshot"/>
+        </methods>
+      </class> <!-- toolsQA.Screenshot -->
+    </classes>
+  </test> <!-- Assignment1(failed) -->
+</suite> <!-- Failed suite [ToolsQA] -->

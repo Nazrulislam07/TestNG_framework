@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Fb_book]">
+  <test thread-count="5" name="FB_login(failed)">
+    <parameter name="URL" value="www.facebook.com"/>
+    <classes>
+      <class name="fb_book.FB_Login">
+        <methods>
+          <include name="sign" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- fb_book.FB_Login -->
+    </classes>
+  </test> <!-- FB_login(failed) -->
+</suite> <!-- Failed suite [Fb_book] -->
